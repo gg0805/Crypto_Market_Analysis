@@ -1,0 +1,4 @@
+This project sets up Python with the necessary libraries like Streamlit, Pandas, and Requests, by running the script using `streamlit run crypto_market_analysis.py`, this will open the application in the browser.
+-	Able to adjust the date range with a slider to determine the analysis period, which retrieves the data from the CoinGecko API.
+-	The data will process and display it through a line chart showing price trends, a bar chart for daily closing prices, and an area chart for price distribution.
+-	Users can enable an extra details option to provide more context. Additionally, the app will run to display any errors as needed.
